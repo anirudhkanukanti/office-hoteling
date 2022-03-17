@@ -1,0 +1,10 @@
+.layout {
+    margin: 10px auto;
+    width: 80%;
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+}

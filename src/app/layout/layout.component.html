@@ -1,0 +1,7 @@
+<div class="layout">
+    <div class="row" *ngFor="let y of getArrayFromNumber(breadth)">
+        <div *ngFor="let x of getArrayFromNumber(length)">
+            <app-item [x]="x" [y]="y" [data]="data"></app-item>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,7 @@
+<div class="item" (click)="onSelect()" [ngClass]="{
+    'cubicle': itemData?.isCubicle, 
+    'booked': itemData?.isBooked , 
+    'selected': itemData?.isSelected,
+    'noclick': !itemData?.isCubicle
+}" [title]="'x='+x+', y='+y">
+</div>
